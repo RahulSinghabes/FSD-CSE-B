@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <h1>Register Here</h1>
+    <form action="register.js" method="post" name="register">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        name="uname"
+        id="name"
+        placeholder="Enter the user name"
+      />
+      <br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter the user email"
+        required
+      />
+      <br />
+      <label for="mob">mob. No.</label>
+      <input
+        type="number"
+        name="mob"
+        id="mob"
+        placeholder="Enter the user mobile number"
+      />
+      <br />
+      <label for="dob">DOB</label>
+      <input type="date" name="dob" id="dob" placeholder="Enter the user DOB" />
+      <br />
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" value="M" id="gender" checked />Male
+      <input type="radio" name="gender" value="F" id="gender" />FeMale
+      <br />
+      <label for="branch">Branch</label>
+      <select name="branch" id="">
+        <option value="cse">CSE</option>
+        <option value="ds">CSE-DS</option>
+        <option value="aiml">AIML</option>
+        <option value="it">IT</option>
+      </select>
+
+      <br />
+      <label for="semester">Semester</label>
+      <select name="sem" id="">
+        <option value="1">I</option>
+        <option value="2">III</option>
+        <option value="aiml">V</option>
+        <option value="it">VII</option>
+      </select>
+      <br />
+      <label for="address">Address</label>
+      <textarea name="address" id="address" rows="3" cols="30" placeholder="Enter your current address">
+</textarea
+      >
+      <br />
+      <label for="cert">upload class 12 certificate</label>
+      <input type="file" name="cert" id="cert" />
+      <br />
+      <input type="submit" value="register" name="" id="" />
+      <input type="reset" value="reset" name="" id="" />
+    </form>
+  </body>
+</html>
