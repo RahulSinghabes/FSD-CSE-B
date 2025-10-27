@@ -10,6 +10,7 @@ function App() {
     <>
     <div style={{display:'flex',justifyContent:'center'}}>
         <PostComponent />
+        <PostComponent />
     <PostComponent />
     <PostComponent />
     </div>
